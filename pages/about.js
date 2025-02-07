@@ -1,13 +1,13 @@
 
 import Link from "next/link"
-import Nav from "../components/Nav"
+import Layout from "../components/Layout";
 const About = ()=>{
     return(
-    <div>
+    <Layout>
         <Nav/>
          <Link href="/">home page</Link>
          
-    </div>
+    </Layout>
    
 )};
 
