@@ -3,7 +3,7 @@ import Layout from "../components/Layout"
 import Head from 'next/head'
 const index = ()=>{
     return(
-        <Layout> 
+        <Layout title={"home page"} footer={`this  is built by fozia ✍️ copyright ©️${new Date().getFullYear()}`}> 
         <Head>
             <title>Home</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
