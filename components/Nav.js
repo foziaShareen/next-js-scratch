@@ -1,4 +1,5 @@
 import Link from "next/link"
+
 const styleNav ={
     display:"flex",
     justifyContent:"space-around",
@@ -19,9 +20,11 @@ const styleNav ={
 }
 const Nav =()=>{
     return(
-        <div style={styleNav}>  
+        <div style={styleNav}>
+            <img src="/static/logo.jpg" height="40px"/>  
         <Link href="/">Home</Link> 
         <Link href="/about">About</Link> 
+        <style jsx>{`img{color:white; border-radius:50%}`}</style>
         </div>
     )
 }

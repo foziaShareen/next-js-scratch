@@ -1,13 +1,13 @@
 import Nav from './Nav';
 
-const Layout = ({title,footer,children}) => {
+const Layout = ({mainTitle,footer,children}) => {
     // console.log(children)
 
     return (
         <div>
             <Nav />
             <hr/>
-            <h1>{title}</h1>
+            <h1>{mainTitle}</h1>
             {children}
             <footer style={{textAlign:"center", backgroundColor:"skyblue"}}>{footer}</footer>
             {/* every content for example home page,or about page content will be rendered here as children as props */}
