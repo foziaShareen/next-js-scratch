@@ -6,7 +6,8 @@ const About = ()=>{
     return(
     <Layout mainTitle={"about page"} footer={`this  is built by fozia ✍️ copyright ©️${new Date().getFullYear()}`}>
         
-         <Link href="/">about page</Link>
+         <Link href="/">go to home page</Link>
+         <p>lorem ipsum</p>
          
     </Layout>
    

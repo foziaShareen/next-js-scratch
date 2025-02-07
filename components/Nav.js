@@ -20,7 +20,7 @@ const styleNav ={
 }
 const Nav =()=>{
     return(
-        <div style={styleNav}>
+        <div style={styleNav} className="mainnav">
             <img src="/static/logo.jpg" height="40px"/>  
         <Link href="/">Home</Link> 
         <Link href="/about">About</Link> 

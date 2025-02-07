@@ -9,7 +9,7 @@ const Layout = ({mainTitle,footer,children}) => {
             <hr/>
             <h1>{mainTitle}</h1>
             {children}
-            <footer style={{textAlign:"center", backgroundColor:"skyblue"}}>{footer}</footer>
+            <footer style={{textAlign:"center"}} className="footer"></footer>
             {/* every content for example home page,or about page content will be rendered here as children as props */}
         </div>
     );
