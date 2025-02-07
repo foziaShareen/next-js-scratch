@@ -24,6 +24,8 @@ const Nav =()=>{
             <img src="/static/logo.jpg" height="40px"/>  
         <Link href="/">Home</Link> 
         <Link href="/about">About</Link> 
+        <Link href="/blogs">Blogs</Link>
+        <Link href="/news">News</Link>
         <style jsx>{`img{color:white; border-radius:50%}`}</style>
         </div>
     )

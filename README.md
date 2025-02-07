@@ -62,4 +62,7 @@ export default index
 //   );
 // }
 //note there is no need of nav separately as it is included in layout 
-4....
+note
+for our bootstrap style link we make _document.js, to overload original document of next js,because it is cumbersome 
+to link bootstrap in every page , so best place is to do it in document.js,for images and our own style sheet 
+in our root we make static
