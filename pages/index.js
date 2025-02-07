@@ -1,9 +1,9 @@
 import Link from "next/link"
-import Nav from "../components/Nav"
+import Layout from "../components/Layout"
 import Head from 'next/head'
 const index = ()=>{
     return(
-        <div className="index"> 
+        <Layout> 
         <Head>
             <title>Home</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -12,7 +12,7 @@ const index = ()=>{
             <meta name="author" content="fozia"/>
             {/* go to the browser inspect page viewsource and see the source */}
         </Head>
-<Nav/>
+
         home page
         {/* we dont want to use href in nextjs , because if you use href it will load on server side, we dont want navigation on client 
         side so we use next link so it will not reload
@@ -26,7 +26,7 @@ const index = ()=>{
         </p>
         {/* we can style in next js like below , it will be scoped to this page , and not global */}
         <style jsx>{`p{color:red}`}</style>
-        </div>
+        </Layout>
     )
 }
 
